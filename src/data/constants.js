@@ -500,13 +500,13 @@ export const projects = [
     category: "web app",
     github: "https://github.com/icodersajal",
     // webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Sajal Kumar",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        //linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/icodersajal",
-      },
+    // member: [
+    //   {
+    //     name: "Sajal Kumar",
+    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+    //     //linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    //     github: "https://github.com/icodersajal",
+    //   },
       // {
       //   name: "Upasana Chaudhuri",
       //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
