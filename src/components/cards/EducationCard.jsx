@@ -1,7 +1,7 @@
 import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styled from "styled-components";
-
+import img from "../../images/Admin.png";
 const Top = styled.div`
   width: 100%;
   display: flex;

@@ -8,14 +8,14 @@ const Top = styled.div`
   max-width: 100%;
   gap: 12px;
 `;
-const Image = styled.img`
-  height: 50px;
-  border-radius: 10px;
-  margin-top: 4px;
-  @media only screen and (max-width: 768px) {
-    height: 40px;
-  }
-`;
+// const Image = styled.img`
+//   height: 50px;
+//   border-radius: 10px;
+//   margin-top: 4px;
+//   @media only screen and (max-width: 768px) {
+//     height: 40px;
+//   }
+// `;
 const Body = styled.div`
   width: 100%;
   display: flex;
@@ -112,7 +112,7 @@ const ExperienceCard = ({ experience }) => {
       date={experience?.date}
     >
       <Top>
-        <Image src={experience?.img} />
+        {/* <Image src={experience?.img} /> */}
         <Body>
           <Role>{experience?.role}</Role>
           <Company>{experience?.company}</Company>

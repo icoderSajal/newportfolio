@@ -105,7 +105,7 @@ const Projects = () => {
           apps. Here are some of my projects.
         </Desc>
 
-        <ToggleButtonGroup>
+        {/* <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
@@ -133,7 +133,7 @@ const Projects = () => {
           >
             MACHINE LEARNING
           </ToggleButton>
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
 
         <CardContainer>
           {toggle === "all" &&
